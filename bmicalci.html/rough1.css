@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  margin: 0; /* Remove default margin */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Set minimum height for viewport */
+  background-color: #ffffff; /* Light gray background */
+}
+
+.main {
+  width: 100%; /* Set maximum width for main content */
+  margin: 0 auto; /* Center the content horizontally */
+  border: 5px solid #8f95d0; /* Neon blue border with thickness of 5px */
+  border-radius: 5px;
+}
+
+.newbmi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;width: 100%; /* Set maximum width for main content */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.containtable h1{
+  text-align: center;
+}
+
+.newbmi h1{
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  text-align: center;
+  font-family: 'open sans', sans-serif;
+}
+
+.newbmi p {
+  line-height: 1.6;
+  font-size: 1em;
+  font-family:'fantasy';
+  text-align: center;
+  line-height: 1.6
+}
+
+.consists{
+    margin: 0; /* Remove default margin */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Set minimum height for viewport */
+    background-color: #f5f5f5; /* Light gray background */
+}
+
+.hero,
+.calculator {
+  background-color: #fff;
+  padding: 2em;
+  margin-bottom: 2em;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1,
+.calculator h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  text-align: center;
+  font-family: 'open sans', sans-serif;
+}
+
+.hero p,
+.calculator p {
+  line-height: 1.6;
+  font-size: 1em;
+  font-family:'fantasy';
+}
+
+.calculator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containtable{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bmichart{
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  text-align: center;
+  font-family: 'open sans', sans-serif;
+  font-size: 14px;
+}
+
+.newf{
+  display: flex;
+  align-items: center;
+}
+
+.section1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calculator-container {
+  width: 100%; /* Fill available space */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calculator-image {
+  flex: 0 0 30%; /* Set width for image container */
+  text-align: center;
+}
+
+.input-fields {
+  flex: 1; /* Take remaining space */
+  text-align: center;
+}
+
+input[type="number"] {
+  border: none;
+  border-bottom: 1px solid #0044ff;
+  width: 100%;
+  margin: 10px 0; /* Add some margin between inputs */
+  outline: none;
+  padding: 10px;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  height: 35px;
+  margin-top: 25px;
+  border-radius: 20px;
+  border: none;
+  background-color: #0044ff;
+  color: #fff;
+  font-size: 14px;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+ 
